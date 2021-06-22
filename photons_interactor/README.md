@@ -6,7 +6,7 @@ In the repository, i have added the configuration required to start and install 
 
 See his project here https://photons.delfick.com/apps/interactor/docker.html
 
-If you want to add buttons to HA to trigger photons, you can use rest_command. Take this example and modify to your needs. The IP should not need to be modified.
+If you want to add buttons to HA to trigger photons, you can use rest_command. Take this example and modify to your needs.
 
 Pacman example:
 ```
