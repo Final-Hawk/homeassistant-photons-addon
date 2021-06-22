@@ -17,7 +17,7 @@ rest_command:
     payload: '{"command":"animation/start", "args":{"animations": "pacman"}}'
     
 ```
-Or mabye set a scene
+Or maybe set a scene
 ```
 rest_command:
   my_awesome_scene:
