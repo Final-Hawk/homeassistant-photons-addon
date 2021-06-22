@@ -6,6 +6,24 @@ In the repository, i have added the configuration required to start and install 
 
 See his project here https://photons.delfick.com/apps/interactor/docker.html
 
+If you want to add buttons to HA to trigger photons, you can use rest_command. Take this example and modify to your needs. The IP should need to be modified.
 
+Pacman example:
+```
+rest_command:
+  pacman:
+    url: 'http://127.0.0.1:6100/v1/lifx/command'
+    method: "put"
+    payload: '{"command":"animation/start", "args":{"animations": "pacman"}}'
+    
+```
+Or mabye set a scene
+```
+rest_command:
+  my_awesome_scene:
+    url: 'http://127.0.0.1:6100/v1/lifx/command'
+    method: "put"
+    payload: '{"command":"scene_apply", "args":{"uuid": "uuid_of_my_awesome_scene"}}'
+```
 
 ###### Icon by [Icons8](https://icons8.com/icon/YScTDpKhMxMC/smart-home-automation)
