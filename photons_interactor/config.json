@@ -1,0 +1,9 @@
+{
+  "name": "Photons Interactor",
+  "version": "0.8.5",
+  "slug": "photons_interactor",
+  "description": "This is an addon to run Photons Interactor by delfick. Easily send requests to the interactor without additional install configuration. After the addon has started, the database is preconfigurd so changes are saved.",
+  "arch": ["amd64", "armv7", "i386"],
+  "host_network": true,
+  "url": "https://photons.delfick.com/apps/interactor/docker.html"
+}
