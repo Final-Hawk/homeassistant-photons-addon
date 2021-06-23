@@ -1,4 +1,6 @@
 # Photons Interactor Homeassistant Addon
+
+# This has been archived as it has been implemented into photons
  
 This addon installs and configures photons interactor. This can be used to send animations, create and set scenes and much more all through local web requests with no need for an internet interaction. This makes changes fast and reliable. To install it, add this repositiory to your addon store.
 
